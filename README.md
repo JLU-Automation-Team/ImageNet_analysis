@@ -1,7 +1,7 @@
 神经网络论文阅读计划(希望不会鸽)
 - [x] VGGNet
+- [x] ResNet
 ---------------------------
-- [ ] ResNet(doing)
-- [ ] ZF-Net
-- [ ] RCNN
+- [ ] ZF-Net(doing)
+- [ ] AlexNet
 - [ ] faster-RCNN

@@ -2,18 +2,19 @@ import torch.nn as nn
 import torch
 
 # 定义VGG网络
+# 损失函数CrossEntropyLoss中已经包含了Softmax函数，模型直接线性输出即可
 class VGG(nn.Module):
     def __init__(self, features, num_classes=1000, init_weights=False):
         super(VGG, self).__init__()
         self.features = features #特征提取传入特征
         self.classifier = nn.Sequential(
             nn.Dropout(p=0.5),
-            nn.Linear(512*7*7, 2048),
+            nn.Linear(512*7*7, 4096),
             nn.ReLU(True),
             nn.Dropout(p=0.5),
-            nn.Linear(2048, 2048),
+            nn.Linear(4096, 4096),
             nn.ReLU(True),
-            nn.Linear(2048, num_classes)
+            nn.Linear(4096, num_classes)
         )
         if init_weights:
             self._initialize_weights()
