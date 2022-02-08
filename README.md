@@ -2,7 +2,7 @@
 - [x] VGGNet
 - [x] ResNet
 - [x] AlexNet
+- [x] ZF-Net
 ---------------------------
-- [ ] ZF-Net(doing)
-- [ ] GoogleNet
+- [ ] GoogleNet(doing)
 
