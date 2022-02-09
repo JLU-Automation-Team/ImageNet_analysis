@@ -21,4 +21,4 @@ ILSVRC（ImageNet Large Scale Visual Recognition Challenge）是近年来机器�
 - [x] GoogleNet
 ---------------------------
 - [ ] RCNN（多个模型用作定位和检测的基础模型）
-- [ ] SENet（多个模型用作定位和检测的基础模型）
+- [ ] SENet
