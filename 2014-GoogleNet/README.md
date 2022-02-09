@@ -49,6 +49,7 @@ GoogleNet模型是2014年ImageNet图像竞赛分类与检测冠军。在2014年�
 * Ⅷ. ILSVRC 2014 Detection
 > * 如果算法给出的框分类正确且与正确标签框的交并比（IOU）大于0.5，就认为这个框预测正确
 > * 结合Selective Search和multi-box prediction，减少了无用的候选框；没有使用bounding box regression而是直接对候选框分类（时间紧）；使用Inception模型作为分类器
+
 <br><br>
 
 > 本笔记由balmung08(github)整理
